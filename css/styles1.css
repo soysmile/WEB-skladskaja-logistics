@@ -1,0 +1,221 @@
+@charset "utf-8";
+
+a:hover {
+    cursor: pointer;
+}
+
+.skladskaja-logistika .form-header p {
+    max-width: 600px;
+}
+
+.red {
+    color: red;
+}
+
+.skladskaja-logistika .d4 li {
+    text-align: left;
+}
+
+.skladskaja-logistika .d4 ul{
+    font-size: 1em;
+    line-height: 1.5;
+    color: #fff;
+    padding: 0.7em 0;
+}
+
+.fblock {
+    width: 70%;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 100px;
+}
+
+.fblock h2 {
+    text-align: center;
+}
+
+.fblock input {
+    width: 300px;
+    height: 30px;
+}
+
+.fblock p {
+    font-size: 1.7em;
+}
+
+.fblock h2 {
+    font-size: 2.7em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.form-block-input {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.priziv h2:after {
+   visibility: hidden;
+}
+
+.left-form {
+    float: left;
+    margin-right: 23px;
+    height: 200px;
+    width: 48%;
+}
+
+.right-form {
+    float: left;
+    height: 200px;
+    width: 48%;
+}
+
+.right-form textarea {
+    height: 162px;
+    width: 100%;
+}
+
+.left-form input {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.fblock button {
+    background-color: lightgreen;
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-top: 4px solid green;
+
+}
+
+.ftext-logistics img {
+    width: 200px;
+    height: auto;
+}
+
+.crm-webform-label-title-container {
+    font-size: 3em;
+}
+@media (max-width:1200px){
+    .skladskaja-logistika .bblue3.d8 .w1198 p{
+        font-size: 2em !important;
+    }
+}
+
+@media (max-width:850px){
+    .skladskaja-logistika .bblue3.d8 .w1198 p{
+        font-size: 1.8em !important;
+    }
+}
+.discount {
+    background-color: #f6fbff;
+    text-align: center;
+    background-image: url(../assets/images/map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.discount .content {}
+
+.discount .content {
+    font-family: 'Montserrat';
+    display: inline-block;
+    max-width: 1040px;
+}
+
+.discount .content p {
+    color: #145fcf;
+    padding: 0.5em;
+}
+
+.discount .content ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.discount .content .sale-free {
+    color: #de584f;
+    text-transform: uppercase;
+}
+
+.discount .discount-btn {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.discount li a:hover {
+    color: #145fcf;
+    background-image: none;
+    background-color: white;
+    border: 2px solid #145fcf;
+}
+
+.discount li a {
+    line-height: 1.8;
+    padding: 0.6em;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    border-radius: 32px;
+    background-image: -moz-linear-gradient( 90deg, rgb(1, 66, 160) 0%, rgb(65, 142, 255) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(1, 66, 160) 0%, rgb(65, 142, 255) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(1, 66, 160) 0%, rgb(65, 142, 255) 100%);
+    width: 324px;
+    height: 65px;
+    transition: 0.5s ease;
+    box-sizing: border-box;
+
+
+}
+
+.discount .discount-text {
+    height: 50px;
+    width: 500px;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.discount .discount-text-2 {
+    width: 400px;
+    display: inline-block;
+}
+
+.discount a {
+    font-size: 2em;
+    color: white;
+    font-weight: 800;
+}
+
+.discount .content h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #0041a7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.discount .content .sale-price {
+    color: #da2d1b;
+    font-size: 1.7em;
+}
+
+.discount .content span {
+    color: #0068ff;
+}
+
+.discount .content p {
+    background-color: rgba(207, 224, 249, 0.8);
+    font-weight: bold;
+    line-height: 1.3;
+}

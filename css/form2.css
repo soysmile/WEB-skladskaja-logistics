@@ -1,0 +1,76 @@
+.crm-webform-default{
+/*    background-color: #0c64e6;*/
+}
+.crm-webform-label-title label{
+  /*  color: white !important;*/
+    font-size: 1.3em;
+    font-weight: 600;
+}
+button.crm-webform-submit-button{
+    width: 298px;
+    transition: 0.5s ease;
+    border: 2px solid white;
+    /*background-color: #0c64e6 !important;*/
+    font-size: 2em !important;
+	color : #0c64e6;
+	border : 1px solid #0c64e6;
+}
+button.crm-webform-submit-button:hover{
+    background-color: #0c64e6 !important;
+    color: #fff;
+}
+.crm-webform-fieldset{
+    width: 298px;
+    display:block;
+    margin-right: auto;
+    margin-left: auto; 
+}
+.crm-webform-block {
+    width: 468px !important;
+}
+.crm-webform-bottom-logo-container{
+    display:none;
+}
+.crm-webform-desktop-font-style a{
+    color: #000;
+}
+.crm-webform-label-required-field:after{
+    display: none;
+}
+.content-wrap, .content {
+	    background-color: transparent;
+}
+.crm-webform-iframe{background-color: transparent;}
+
+.crm-webform-block.crm-webform-default {
+    border: 2px solid #0c64e6;
+    border-radius: 6px;
+}
+
+@media (max-width: 900px){
+     .crm-webform-block.crm-webform-default{
+  width: 100% !important;
+ }
+}
+@media (max-width: 380px){
+    .crm-webform-label-content{
+        width: 85%;
+    }
+    .crm-webform-group.crm-webform-button-container .crm-webform-submit-button{
+        width: 100% !important;
+        font-size: 1.5em !important;
+    }
+ .crm-webform-agreement-modifier{
+  margin: 0 0 10px 0;
+ }
+}
+@media (max-width: 300px){
+.crm-webform-block {
+    width: 300px !important;
+}
+}
+@media (max-width: 900px){
+     .crm-webform-block.crm-webform-default{
+  width: 100% !important;
+ }
+}

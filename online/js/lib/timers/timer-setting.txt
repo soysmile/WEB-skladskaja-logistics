@@ -1,0 +1,94 @@
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://alexyanovsky.com/lib/jquery.plugin.min.js" type="text/javascript"></script>
+<script src="http://alexyanovsky.com/lib/jquery.cookie.js" type="text/javascript"></script>
+<script src="http://alexyanovsky.com/lib/timers/jquery.countdown.min.js" type="text/javascript"></script>
+
+
+
+<script type="text/jscript">
+	timer_selector = "#time";
+	time = 3*24*60*60*1000; //ms
+	redirect = "http://7weektraining.alexyanovsky.com/n_interview/";
+	page_id = "n_s98347481";
+</script>
+<script src="http://alexyanovsky.com/lib/timers/timer.js" type="text/javascript"></script>
+
+
+<div id="time" class="time"></div>
+
+
+.time {
+ 	color:#38291e; font-family:'trebuchet_ms', Geneva, Arial, Helvetica, Verdana, sans-serif; font-size:26px; position:relative; margin:0 auto; 
+	width:210px; top:358px; left:-460px; font-weight : bold; height : 30px;
+}
+.cd-time {width : 44px; display : inline-block; margin : 0px; padding : 0px; text-align : center;}
+.cd-days{}
+.cd-hours {margin:0px 0px 0px 2px;}
+.cd-minutes{margin:0px 0px 0px 2px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <link rel="stylesheet" href="assets/countdown/jquery.countdown.css" />
+        
+        <!-- JavaScript -->
+        
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="http://alexyanovsky.com/lib/jquery.cookie.js" type="text/javascript"></script>
+		<script src="assets/countdown/jquery.countdown.js"></script>
+
+
+
+<style>
+.wrap-clock {
+  background: url(img/clock.png) 0 40px;
+  width: 428px;
+  height: 186px;
+  float: right;
+}
+.wrap-clock ul{
+	list-style:none;
+	margin:-15px 0 0;
+	padding:0 0 0 7px;
+}
+.wrap-clock ul li{
+	display:inline-block;
+	padding:0 31px 0 28px;
+}
+.wrap-clock ul li:last-child{
+	padding:0 10px 0 17px;
+}
+</style>
+
+
+    <div class="wrap-clock">                        
+		<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+        <script type="text/javascript">
+			timer_selector = "#countdown";
+			time = 3*24*60*60*1000; //ms
+			redirect = "http://alexyanovsky.com/mba_st/first_view/sales_s1/";
+			page_id = "sales_s2";
+		</script>
+		<script src="http://alexyanovsky.com/lib/timers/timer1.js" type="text/javascript"></script>
+
+			<div id="countdown"></div>
+			<ul>
+			<li>ƒÕ≈…</li>
+			<li>◊¿—Œ¬</li>
+			<li>Ã»Õ”“</li>
+			<li>—≈ ”Õƒ</li>
+		</ul>
+    </div> 
+
+
+
